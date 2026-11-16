@@ -1,0 +1,31 @@
+import { TabletSmartphone } from 'lucide-react';
+import { Server } from 'lucide-react';
+import { Database } from 'lucide-react';
+
+//* or 
+import {
+
+}
+*// 
+
+const courses = [
+{
+    id:  1,
+    title: "Frontend",
+    Icon: TabletSmartphone,
+    price: "$100"
+
+},
+{   id:  2,
+    title: "Backend",
+    Icon:   Server,
+    price: "$150"
+
+},
+{    id:    3,
+    title: "Database Management",
+    Icon:   Database,
+    price: "$100"
+
+},
+];
