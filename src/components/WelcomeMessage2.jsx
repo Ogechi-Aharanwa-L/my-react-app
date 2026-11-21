@@ -1,4 +1,4 @@
-function WelcomeMessage() {
+function WelcomeMessage2() {
     const handleClick = () => {
         alert("Welcome to event handling in React!");
     };
@@ -29,7 +29,7 @@ function WelcomeMessage() {
             <div className="flex gap-4">
                 <button 
                     onClick={handleClick}
-                    className="bg-yellow-200 cursor-pointer py-1.5 px-4 self-start"
+                    className="bg-yellow-200 cursor-pointer py-1.5 px-4 self-start rounded-4xl"
                 >
                     Click to say Welcome
                 </button>
@@ -45,4 +45,4 @@ function WelcomeMessage() {
     )
 }
 
-export default WelcomeMessage;
+export default WelcomeMessage2;
